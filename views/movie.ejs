@@ -1,0 +1,68 @@
+<% include partials/header %>
+        <div id="container-fluid">
+            <div id="sectionOne">
+                <h1><%= movie.Title %></h1>
+                <div id="image">
+                    <img src="<%= movie.Poster %>" alt="movie poster">
+                </div>
+                <div id="basic_info">
+                    <p>
+                        <%= movie.Title %> was released on <%= movie["Released"] %>, and it's runtime was <%= movie.Runtime %>.
+                    </p>
+                </div>
+        
+                <div class="secondary_info">
+                    <h2>Genre</h2>
+                    <p><%= movie.Genre %>. </p>
+                </div>
+        
+                <div class="secondary_info">
+                    <h2>Writers</h2>
+                    <p><%= movie["Writer"] %>. </p>
+                </div>
+        
+                <div class="secondary_info">
+                    <h2>Director</h2>
+                    <p><%= movie["Director"] %>. </p>
+                </div>
+        
+            </div><!--section One-->
+
+            <div id="sectionTwo">
+                <div class="secondary_info">
+                    <h2>Starring</h2>
+                    <p><%= movie["Actors"] %>. </p>
+                </div>
+        
+                <div class="secondary_info">
+                    <h2>Movie Plot</h2>
+                    <p><%= movie["Plot"] %>. </p>
+                </div>
+                <div class="tertiary_info">
+                    <h2>Awards</h2>
+                    <p><%= movie.Awards %></p>
+                </div>
+            
+                <div class="tertiary_info">
+                    <h2>Rating</h2>
+                    <p>This movie has a rating of <%= movie.Ratings[0]["Value"] %>.</p>
+                    <h2>Source of Data</h2>
+                    <p><%= movie.Ratings[0]["Source"] %></p>
+                </div>
+        
+                <div class="tertiary_info">
+                    <h2>IMDB Votes</h2>
+                    <p><%= movie.imdbVotes %>.</p>
+                    <h2>Movie Type</h2>
+                    <p><%= movie.Type %></p>
+                    <h2>Country</h2>
+                    <p><%= movie.Country %></p>
+                    <h2>Language</h2>
+                    <p><%= movie.Language %></p>
+                </div>
+                <div id="link">
+                    <a href="/">Search For Another Movie</a>
+                </div>
+            </div><!--section two-->
+        </div><!--container fluid-->
+<% include partials/footer %>

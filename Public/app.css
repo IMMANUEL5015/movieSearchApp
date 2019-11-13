@@ -1,0 +1,129 @@
+/* General styles */
+body{
+    background: rgb(157, 157, 243);
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/* styles for home page */
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 50px auto;
+    text-align: center;
+    width: 80%;
+}
+header p{
+    font-size: 1.3em;
+    line-height: 1.5
+}
+ .headings{
+    font-size: 3em;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+
+}
+
+form{
+    width: 95%;
+    max-width: 650px;
+    margin: auto;
+}
+
+form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px grey;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+form input:focus{
+    outline: none;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+/* media queries for home page */
+
+@media screen and (max-width: 610px){
+    #container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 540px){
+    #container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 499px){
+    #container .headings{
+        font-size: 2.5em;
+    }
+    header p{
+        font-size: 1.1em;
+        line-height: 1.5
+    }
+}
+
+
+/* Styles for movie page */
+#container-fluid{
+    width: 80%;
+    margin:30px auto;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sectionTwo{
+    margin-top: 10px;
+}
+#container-fluid #link{
+    margin-top: 50px;
+}
+ #container-fluid a{
+    text-decoration: none;
+    background: rgb(157, 157, 243);
+    color: black;
+    padding: 10px;
+    border-radius:15px;
+}
+
+/* media queries for movie page */
+
+@media screen and (max-width: 799px){
+    #container-fluid{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 699px){
+    #container-fluid{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 630px){
+    #container-fluid{
+        width: 75%;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+}
+@media screen and (max-width: 500px){
+    #container-fluid{
+        width: 100%;
+    }
+    #container-fluid img{
+        width: 100%;
+    }
+}

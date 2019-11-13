@@ -1,0 +1,14 @@
+<% include partials/header %>
+        <div id="container">
+            <header>
+                <h1 class="headings">The Movie Search App</h1>
+                <p>This simple web app retrieves information about a specific movie, as requested by the user.</p>
+                <p>Simply type in the name or title of the movie you are interested in, in the search field below and press enter.</p>
+            </header>
+            <h2 class="headings">Enter Movie Title</h2>
+            <form action="/search" method="GET">
+                <input type="text" name="title" id="" placeholder="Search">
+            </form>
+        </div><!--container-->   
+<% include partials/footer %>
+
