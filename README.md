@@ -26,7 +26,7 @@ Once the user has filled in the name of the movie, then they can press the "**EN
 Thereafter, they will be redirected to a new page that will display detailed information about the movie they searched for.
 
 ## Notice
-All the application dependenciess will be specified in the package.json file.
+All the application dependencies will be specified in the package.json file.
 
 Please ensure to install all the required packages, as I did not upload the modules themselves.
 
