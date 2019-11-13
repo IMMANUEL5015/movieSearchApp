@@ -31,4 +31,4 @@ All the application dependencies will be specified in the package.json file.
 Please ensure to install all the required packages, as I did not upload the modules themselves.
 
 ## Deployed Version
-Click this [link](https://) to see and play with this web app.
+Click this [link](https://the-movie-search-app.herokuapp.com/) to see and play with this web app.
