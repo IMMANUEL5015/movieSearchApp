@@ -7,8 +7,8 @@ This web application works with an API to retrieve information about movies, bas
 The main rationale for this project was to showcase my understanding of the basics of Node.js, Express, and Making API calls.
 
 ## Tools and Technologies Used
-- HTML (structure of the web page).
-- CSS (styling of the web page).
+- HTML (structure of the web pages).
+- CSS (styling of the web pages).
 - Node.js (Utilize JavaScript on the server).
 - NPM (install packages: ejs, express, request).
 - Express (Node.js Framework for creating server-side apps).
