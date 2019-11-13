@@ -30,5 +30,7 @@ All the application dependencies will be specified in the package.json file.
 
 Please ensure to install all the required packages, as I did not upload the modules themselves.
 
+It is crucial to note that the app might not work as intended for every movie you search for. Please, do not be surprised if you make a search and the app behaves in an unexpected manner.
+
 ## Deployed Version
 Click this [link](https://the-movie-search-app.herokuapp.com/) to see and play with this web app.
